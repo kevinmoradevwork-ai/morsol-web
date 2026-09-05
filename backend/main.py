@@ -42,7 +42,7 @@ async def recibir_contacto(datos: FormularioContacto):
     # Preparar el paquete de datos para Resend
     params = {
         "from": "onboarding@resend.dev", # Resend usa este por defecto para pruebas
-        "to": ["administracion@industriasmorsol.com"],
+        "to": ["kevinmoradevwork@gmail.com"],
         "subject": f"🔴 NUEVA COTIZACIÓN: {datos.servicio} - {datos.nombre}",
         "reply_to": datos.correo, # ¡Mantenemos tu funcionalidad de responder directo al cliente!
         "html": f"""
