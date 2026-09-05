@@ -34,7 +34,7 @@
     
     try {
       // Conectamos con el backend de FastAPI
-      const respuesta = await fetch('http://localhost:8000/api/contacto', {
+      const respuesta = await fetch('https://morsol-api.onrender.com/api/contacto', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
