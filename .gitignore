@@ -1,0 +1,11 @@
+# Ignorar dependencias de Node (Svelte)
+frontend/node_modules/
+frontend/dist/
+frontend/.svelte-kit/
+
+# Ignorar entorno de Python (FastAPI)
+backend/venv/
+backend/__pycache__/
+
+# Ignorar variables de entorno (¡CRÍTICO!)
+backend/.env
